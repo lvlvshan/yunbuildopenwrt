@@ -7,7 +7,7 @@ on:
       ssh:
         description: 'SSH连接到Github Actions'
         required: false
-        default: 'false'
+        default: 'true'
   push:
     branches: [ main ]
   pull_request:
